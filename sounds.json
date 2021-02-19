@@ -1109,7 +1109,8 @@
   },
   "entity.fishing_bobber.splash": {
     "playsound_mapping": "random.splash",
-    "bedrock_mapping": "SPLASH"
+    "bedrock_mapping": "SPLASH",
+    "identifier": "minecraft:fishing_hook"
   },
   "entity.fishing_bobber.throw": {
     "playsound_mapping": "random.bow",
@@ -1711,11 +1712,13 @@
   },
   "entity.lightning_bolt.impact": {
     "playsound_mapping": "ambient.weather.lightning.impact",
-    "bedrock_mapping": "THUNDER"
+    "bedrock_mapping": "EXPLODE",
+    "identifier": "minecraft:lightning_bolt"
   },
   "entity.lightning_bolt.thunder": {
     "playsound_mapping": "ambient.weather.thunder",
-    "bedrock_mapping": "THUNDER"
+    "bedrock_mapping": "THUNDER",
+    "identifier": "minecraft:lightning_bolt"
   },
   "entity.lingering_potion.throw": {
     "playsound_mapping": "random.bow",
@@ -1747,7 +1750,8 @@
   },
   "entity.llama.spit": {
     "playsound_mapping": "mob.llama.spit",
-    "bedrock_mapping": ""
+    "bedrock_mapping": "SHOOT",
+    "identifier": "minecraft:llama"
   },
   "entity.llama.step": {
     "playsound_mapping": "mob.llama.step",
